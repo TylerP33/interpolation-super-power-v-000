@@ -1,4 +1,6 @@
-color = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
-letters = ["R", "O", "Y", "G", "B", "I", "V"]
+colors = ["R: red", "O: orange", "Y: yellow", "G: green", "B: blue", "I:indigo", "V: violet"]
+def display_rainbow(colors)
+  puts "#{colors[0-10]}"
+end
 
-if color = "red" then print ":R"
+
